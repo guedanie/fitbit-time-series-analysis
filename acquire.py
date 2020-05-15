@@ -166,9 +166,9 @@ def get_data(filename):
     calories = get_calories(rows)
     activities = get_activities(rows)
 
-    if filename == "2018-05-27_through_2018-06-26.csv":
-        food_logs = get_food_logs_special(rows)
-    else:
-        food_logs = get_food_logs(rows)
+    # if filename == "2018-05-27_through_2018-06-26.csv":
+    #     food_logs = get_food_logs_special(rows)
+    # else:
+    #     food_logs = get_food_logs(rows)
     
-    return calories, activities, food_logs
+    return calories, activities
